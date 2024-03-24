@@ -23,7 +23,6 @@ import {
 } from "@actions/core";
 import { context, getOctokit } from "@actions/github";
 import { existsSync } from "fs";
-import { createCheck } from "./createCheck";
 import { createGacFile } from "./createGACFile";
 import {
   deployPreview,
